@@ -6,4 +6,8 @@ what i learn
 
 3 run: jekyll new docs
 
-bundle exec jekyll serve
+4 run: cd docs
+
+4.1 run: bundle config set --local path 'vendor/bundle'
+
+4.2 run?: bundle install --path=vendor/bundl
